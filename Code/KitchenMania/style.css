@@ -1,0 +1,197 @@
+.grid {
+  height: 560px;
+  min-width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-top: 50px;
+  background-color: rgba(109, 127, 151, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+h5 {
+  border-color: orange;
+  color: yellow;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 11px;
+  background-color: rgb(43, 43, 43);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  margin-left: -80px;
+  margin-right: 160px;
+}
+
+div > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+#but {
+  margin-top: 30px;
+  margin-left: -50px;
+  margin-right: 100px;
+}
+
+#but2 {
+  margin-top: -68px;
+  margin-left: 400px;
+}
+
+#but3 {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 60px; 
+}
+
+#but4 {
+  margin-top: 30px;
+  margin-left: -130px;
+}
+
+#but5 {
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+#but6 {
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+h6 {
+  border-color: yellow;
+  color: red;
+  padding: 15px 80px;
+  text-align: center;
+  font-size: 40px;
+  background-color: orange;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  margin-left: 480px;
+  margin-right: 210px;
+  margin-top: 0px;
+}
+
+.invisible {
+  background-color: white;
+}
+
+body {
+  background-image: url("Kitchen-background.png");
+  max-width: 100vh;
+  display: flex;
+}
+
+.score-board {
+  background-color: pink;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 350px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#ffb6c1, #ffc0cb);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
+
+h2 {
+  border-color: yellow;
+  color: red;
+  padding: 15px 80px;
+  text-align: center;
+  font-size: 80px;
+  background-color: orange;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  margin-left: 420px;
+  margin-bottom: 300px;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 15px 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #000000;
+  margin-top: 300px;
+  margin-left: -340px;
+}
+
+a.buttonTwo {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 15px 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #000000;
+  margin-top: 400px;
+  margin-left: -300px;
+}
+
+a.button:hover {
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+a.buttonTwo:hover {
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+#rule {
+  background-color: pink;
+  padding: 15px 15px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#ffb6c1, #ffc0cb);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+  text-align: center;
+  margin-bottom: 300px;
+}

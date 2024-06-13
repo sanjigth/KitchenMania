@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+        <title>Login Form Page</title>
+        <link rel="stylesheet" type="text/css" href="kmLoginStyle.css">
+    </head>
+    <body>
+        <h1>WELCOME TO KITCHEN MANIA</h1>
+        <form action="kmUserCheck.php" method="POST">
+            <fieldset>
+                <h2>Please login using your credentials OR register if you need an account!</h2><br>
+                Email: <br><input type="text" name="EmailAddress"><br><br>
+                Password: <br><input type ="text" name="Password"><br><br>
+                <input type="submit" value="LOGIN" name="login"><br><br>
+                <label id="styleLabel">Dont have an account? <a href="kmSignUp.html">Create one now!</label>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+fieldset {
+    background-color: orange;
+    outline: 3px solid black;
+    width: 500px;
+    height: 430px;
+    margin: auto;
+    text-align: left;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  form {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-style: "Noto Sans JP", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    width: 400px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  input[type="submit"] {
+    font-style: "Noto Sans JP", sans-serif;
+    width: 500px;
+    margin: auto;
+    background-color: red;
+    outline: 2px solid black;
+    color: black;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+  }
+  
+  body {
+    background-image: url(Kitchen-background.png)
+  }
